@@ -188,14 +188,41 @@
 //     Console.WriteLine("Пароль не принят");
 // }
 
-Console.WriteLine("Введите ваш возраст: ");
-int age = int.Parse(Console.ReadLine());
+// Console.WriteLine("Введите ваш возраст: ");
+// int age = int.Parse(Console.ReadLine());
 
-if (age >= 18)
+// if (age >= 18)
+// {
+//     Console.WriteLine("Доступ разрешён");
+// }
+// else
+// {
+//     Console.WriteLine("Доступ запрещён");
+// }
+Console.Write("Введите первое число: ");
+double num1 = double.Parse(Console.ReadLine());
+
+Console.Write("Введите второе число: ");
+double num2 = double.Parse(Console.ReadLine());
+
+Console.Write("Введите операцию (+, -, *, /): ");
+string z = Console.ReadLine();
+
+switch (z)
 {
-    Console.WriteLine("Доступ разрешён");
-}
-else
-{
-    Console.WriteLine("Доступ запрещён");
+    case "+":
+        Console.WriteLine($"{num1} + {num2} = {num1 + num2}");
+        break;
+    case "-":
+        Console.WriteLine($"{num1} - {num2} = {num1 - num2}");
+        break;
+    case "*":
+        Console.WriteLine($"{num1} * {num2} = {num1 * num2}");
+        break;
+    case "/":
+        Console.WriteLine($"{num1} / {num2} = {num1 / num2}");
+        break;
+    default:
+        Console.WriteLine("Неизвестная операция");
+        break;
 }
