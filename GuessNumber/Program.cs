@@ -199,30 +199,30 @@
 // {
 //     Console.WriteLine("Доступ запрещён");
 // }
-Console.Write("Введите первое число: ");
-double num1 = double.Parse(Console.ReadLine());
+// Console.Write("Введите первое число: ");
+// double num1 = double.Parse(Console.ReadLine());
 
-Console.Write("Введите второе число: ");
-double num2 = double.Parse(Console.ReadLine());
+// Console.Write("Введите второе число: ");
+// double num2 = double.Parse(Console.ReadLine());
 
-Console.Write("Введите операцию (+, -, *, /): ");
-string z = Console.ReadLine();
+// Console.Write("Введите операцию (+, -, *, /): ");
+// string z = Console.ReadLine();
 
-switch (z)
-{
-    case "+":
-        Console.WriteLine($"{num1} + {num2} = {num1 + num2}");
-        break;
-    case "-":
-        Console.WriteLine($"{num1} - {num2} = {num1 - num2}");
-        break;
-    case "*":
-        Console.WriteLine($"{num1} * {num2} = {num1 * num2}");
-        break;
-    case "/":
-        Console.WriteLine($"{num1} / {num2} = {num1 / num2}");
-        break;
-    default:
-        Console.WriteLine("Неизвестная операция");
-        break;
-}
+// switch (z)
+// {
+//     case "+":
+//         Console.WriteLine($"{num1} + {num2} = {num1 + num2}");
+//         break;
+//     case "-":
+//         Console.WriteLine($"{num1} - {num2} = {num1 - num2}");
+//         break;
+//     case "*":
+//         Console.WriteLine($"{num1} * {num2} = {num1 * num2}");
+//         break;
+//     case "/":
+//         Console.WriteLine($"{num1} / {num2} = {num1 / num2}");
+//         break;
+//     default:
+//         Console.WriteLine("Неизвестная операция");
+//         break;
+// }
