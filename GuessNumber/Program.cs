@@ -176,14 +176,26 @@
 //             return "❄ Холодно!";
 //     } 
 // }
-Console.WriteLine("Введите пароль: ");
-string password = Console.ReadLine();
+// Console.WriteLine("Введите пароль: ");
+// string password = Console.ReadLine();
 
-Console.WriteLine("Подтвердите пароль: ");
-string confirmPassword = Console.ReadLine();
-if (password == confirmPassword) {
-    Console.WriteLine("Пароль принят");
+// Console.WriteLine("Подтвердите пароль: ");
+// string confirmPassword = Console.ReadLine();
+// if (password == confirmPassword) {
+//     Console.WriteLine("Пароль принят");
+// }
+// else {
+//     Console.WriteLine("Пароль не принят");
+// }
+
+Console.WriteLine("Введите ваш возраст: ");
+int age = int.Parse(Console.ReadLine());
+
+if (age >= 18)
+{
+    Console.WriteLine("Доступ разрешён");
 }
-else {
-    Console.WriteLine("Пароль не принят");
+else
+{
+    Console.WriteLine("Доступ запрещён");
 }
